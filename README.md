@@ -9,4 +9,19 @@ If both of these facets are secured then everything moves more smoothly in the b
 }
     
 2. List Generation
+{
 After every USER has voted on every BOOK such that the bookLIST is built out, the bookLIST is then randomized. I also want this automated so no one wonders if the list is biased, and I also want it displayed in a clean, even, easy to read way.
+}
+
+3. Various trend/analytics tracking
+{
+This one is more ambivalent, but basically I want the bot to track any and all trends I give it criteria over. 
+	What genres the book(s) we read favor
+	how many pages we've read
+	how many weeks it takes us to read books on average
+	how many pages per week we read
+	overall ratings (I'd also like the bot to post for users privately asking them what they rate the book, I know bots can post things that only certain users can see)
+Likely to be more soon.
+}
+
+Going to use PHP and other codebases for the bot, but not attached to any one thing. Likely going to find an open source fork or some other starting point to then manipulate into doing what I need it to do.
