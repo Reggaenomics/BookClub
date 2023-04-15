@@ -24,4 +24,6 @@ This one is more ambivalent, but basically I want the bot to track any and all t
 Likely to be more soon.
 }
 
+I'd also like to add a music playing functionality, but given the oddities of the various music bots all claiming discord's rules have changed, I may not go forward with this.
+
 Going to use PHP and other codebases for the bot, but not attached to any one thing. Likely going to find an open source fork or some other starting point to then manipulate into doing what I need it to do.
