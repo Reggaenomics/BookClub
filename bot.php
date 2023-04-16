@@ -1,7 +1,7 @@
 <?php
 include __DIR__.'/vendor/autoload.php';
 $discord = new \Discord\Discord([
-    'token' => 'MTA5NzAyNjM3MzI3MDM4ODgyNg.Ga6i0X.e6KtcWWEsuxWsqOY4ZET4urwwpAJTs1VdaxZLY',
+    'token' => 'TOKEN_NEEDS_TO_GO_HERE', //The token can't exist here publicly, looking into how to hide this variable.
 ]); //Initializing the bot here
 $discord->on('ready', function ($discord) {
     echo "Ready to read, readers?", PHP_EOL;
