@@ -8,7 +8,7 @@ $discord->on('ready', function ($discord) {
  //Successful initialization and now awaiting input
  $discord->on('message', function ($message) {
        echo "Receiving correspondence from {$message->author->username}: {$message->content}", PHP_EOL;
-   }); //Input received, displaying for to show it has properly read everything.
+   }); //Input received, displaying for to show it has properly read everything,
 });
 $discord->run();
 ?>
