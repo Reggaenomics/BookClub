@@ -27,3 +27,5 @@ Likely to be more soon.
 I'd also like to add a music playing functionality, but given the oddities of the various music bots all claiming discord's rules have changed, I may not go forward with this.
 
 Going to use PHP and other codebases for the bot, but not attached to any one thing. Likely going to find an open source fork or some other starting point to then manipulate into doing what I need it to do.
+
+I may test out some bot functionalities with Python first but it depends, there's a lot of documentation on PHP bots so I don't think the pulls will be an issue. I'm hoping I can scalp some goodreads data as well for the books, but that will be the last thing I try.
