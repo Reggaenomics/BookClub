@@ -6,6 +6,7 @@ $discord = new \Discord\Discord([
 $discord->on('ready', function ($discord) {
     echo "Ready to read, readers?", PHP_EOL;
  //Successful initialization and now awaiting input
+    //Unsure if using PHP is ideal for this bot, potentially looking into Python
  $discord->on('message', function ($message) {
        echo "Receiving correspondence from {$message->author->username}: {$message->content}", PHP_EOL;
    }); //Input received, displaying for to show it has properly read everything,
