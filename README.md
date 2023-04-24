@@ -30,4 +30,4 @@ Going to use PHP and other codebases for the bot, but not attached to any one th
 
 I may test out some bot functionalities with Python first but it depends, there's a lot of documentation on PHP bots so I don't think the pulls will be an issue. I'm hoping I can scalp some goodreads data as well for the books, but that will be the last thing I try.
 
-Working with Josh now in the other repo eventually.
+Working with Josh now in the other repo eventually. Getting confusing results with the coders.
