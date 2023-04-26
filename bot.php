@@ -10,6 +10,6 @@ $discord->on('ready', function ($discord) {
  $discord->on('message', function ($message) {
        echo "Receiving correspondence from {$message->author->username}: {$message->content}", PHP_EOL;
    }); //Input received, displaying for to show it has properly read everything,
-});
+}); //Not sure where in this to add the list generation
 $discord->run();
 ?>
