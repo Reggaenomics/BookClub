@@ -33,3 +33,5 @@ I may test out some bot functionalities with Python first but it depends, there'
 Working with Josh now in the other repo eventually. Getting confusing results with the coders.
 
 I need to figure out how to properly port in certain elements.
+
+Accessing code is easier than expected
