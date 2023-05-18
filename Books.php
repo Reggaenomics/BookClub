@@ -1,6 +1,6 @@
 <?php
 //////////////////////////////////// //Beginning setup/API stuff here
-$apiKey = 'AIzaSyCYSt4fgIPlrfsa38Z1iBYe6d5DwzeNNl8';
+$apiKey = 'I STUPID AND ERASED THIS';
 ////////////////////////////////////
 
 $numberOfPeople = (int) $_POST['number_of_people']; //We need to loop for x amount of people.
