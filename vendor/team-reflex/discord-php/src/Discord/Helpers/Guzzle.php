@@ -224,3 +224,4 @@ class Guzzle
         return 'DiscordPHP/'.Discord::VERSION.' DiscordBot (https://github.com/teamreflex/DiscordPHP, '.Discord::VERSION.')';
     }
 }
+?>

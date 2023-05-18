@@ -1,7 +1,5 @@
 # SocketClient Component
 
-[![Build Status](https://secure.travis-ci.org/reactphp/socket-client.png?branch=master)](http://travis-ci.org/reactphp/socket-client) [![Code Climate](https://codeclimate.com/github/reactphp/socket-client/badges/gpa.svg)](https://codeclimate.com/github/reactphp/socket-client)
-
 Async Connector to open TCP/IP and SSL/TLS based connections.
 
 ## Introduction
@@ -45,8 +43,6 @@ $connector->create('www.google.com', 80)->then(function (React\Stream\Stream $st
     $stream->write('...');
     $stream->close();
 });
-
-$loop->run();
 ```
 
 ### Async SSL/TLS connections
@@ -63,29 +59,4 @@ $secureConnector->create('www.google.com', 443)->then(function (React\Stream\Str
     $stream->write("GET / HTTP/1.0\r\nHost: www.google.com\r\n\r\n");
     ...
 });
-
-$loop->run();
-```
-
-> Advanced usage: Internally, the `SecureConnector` has to set the required
-*context options* on the underlying stream resource.
-It should therefor be used with a `Connector` somewhere in the connector
-stack so that it can allocate an empty *context* resource for each stream
-resource.
-Failing to do so may result in some hard to trace race conditions, because all
-stream resources will use a single, shared *default context* resource otherwise.
-
-### Unix domain sockets
-
-Similarly, the `UnixConnector` class can be used to connect to Unix domain socket (UDS)
-paths like this:
-
-```php
-$connector = new React\SocketClient\UnixConnector($loop);
-
-$connector->create('/tmp/demo.sock')->then(function (React\Stream\Stream $stream) {
-    $stream->write("HELLO\n");
-});
-
-$loop->run();
 ```

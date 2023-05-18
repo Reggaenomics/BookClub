@@ -1,5 +1,15 @@
 {
+    "name": "reggaenomics/bookclub",
+    "description": "book club discord bot stuff",
+    "type": "project",
+    "license": "mit license",
+    "minimum-stability": "stable",
     "require": {
         "team-reflex/discord-php": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
     }
 }

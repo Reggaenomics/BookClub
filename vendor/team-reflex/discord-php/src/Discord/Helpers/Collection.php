@@ -181,3 +181,4 @@ class Collection extends BaseCollection
         }
     }
 }
+?>

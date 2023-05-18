@@ -7,13 +7,10 @@
         "php": ">=5.4.0",
         "react/dns": "0.4.*",
         "react/event-loop": "0.4.*",
-        "react/stream": "0.4.*",
         "react/promise": "~2.0"
     },
     "autoload": {
-        "psr-4": {
-            "React\\SocketClient\\": "src"
-        }
+        "psr-4": { "React\\SocketClient\\": "" }
     },
     "extra": {
         "branch-alias": {
