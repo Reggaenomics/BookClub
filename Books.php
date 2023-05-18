@@ -1,4 +1,5 @@
 <?php
+
 ////////////////SETUP/API STUFF START////////////////////
 require_once 'config.php'; //Getting the API Key from Config
 /////////////////SETUP/API STUFF END/////////////////////
